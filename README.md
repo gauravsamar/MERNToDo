@@ -1,3 +1,3 @@
-#Hey! This is a Full Stack To Do List App
+# Hey! This is a Full Stack To Do List App
 
-###I know it's crazy!
+### I know it's crazy!
