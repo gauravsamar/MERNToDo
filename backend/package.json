@@ -1,0 +1,23 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Simple Full Stack ToDo App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravsamar/MERNToDo.git"
+  },
+  "author": "Gaurav Samar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravsamar/MERNToDo/issues"
+  },
+  "homepage": "https://github.com/gauravsamar/MERNToDo#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^3.25.67"
+  }
+}
