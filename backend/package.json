@@ -18,6 +18,7 @@
   "homepage": "https://github.com/gauravsamar/MERNToDo#readme",
   "dependencies": {
     "express": "^5.1.0",
+    "mongoose": "^8.16.0",
     "zod": "^3.25.67"
   }
 }
