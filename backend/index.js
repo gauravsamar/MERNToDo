@@ -2,7 +2,7 @@ const express = require('express');
 const { createTodo } = require('./types');
 const { Todo } = require('./db');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
@@ -36,7 +36,7 @@ app.get('/todos', async function(req, res){
   console.log(todos); // Promise to return all todos
   res.status(200).json({
     message: 'Todos fetched successfully',
-    todos: todos
+    todos: todos // Return the fetched todos
   });
 });
 
