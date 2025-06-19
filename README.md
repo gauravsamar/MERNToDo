@@ -10,3 +10,5 @@
 - node index.js
 
 - npm create vite@latest - Project Name : frontend
+- cd frontend
+- npm install
